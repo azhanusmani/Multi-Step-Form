@@ -1,0 +1,124 @@
+body {
+  background-image: url(mediamodifier-nCk22aqZjlM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#container {
+  width: 360px;
+  height: 400px;
+  margin: 10% auto;
+  background-color: rgba(255, 255, 250, 0.4);
+  position: relative;
+}
+h2 {
+  
+  text-align:center;
+  margin-bottom: 3%;
+  
+  
+}
+
+#container form {
+  width: 90%;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  
+}
+
+form input{
+    width: 100%;
+    padding: 4% 1%;
+margin: 4% 0;
+border: 0;
+border-bottom: 1px solid black;
+outline: none;
+background:transparent;
+
+}
+
+
+
+#btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+} 
+
+form button{
+margin: 4% 30%;
+padding: 5px;
+width: 40%;
+background: linear-gradient(to bottom, black ,grey);
+outline: none;
+border: 0;
+border-radius: 30px;
+color:white;
+cursor: pointer;
+font-size: 1.5rem;
+}
+
+form button:hover{
+    background: linear-gradient(to top,black,grey);
+}
+
+#next2{
+  margin: 15px;
+
+}
+
+#back2{
+ margin: 15px;
+}
+
+#back3{
+  margin: 15px;
+}
+
+#submit{
+  margin: 15px;
+}
+
+#confirm{
+  margin: 4% 30%;
+  padding: 5px;
+  width: 40%;
+  background: linear-gradient(to bottom, black ,grey);
+  outline: none;
+  border: 0;
+  border-radius: 30px;
+  color:white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#confirm:hover{
+  background: linear-gradient(to top, black ,grey);
+}
+
+#final{
+  text-align: center;
+
+}
+#result{
+  text-align: center;
+}
+
+#message{
+  text-align: center;
+  padding-top: 25%;
+}
+
+
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+ 
+.show {
+  display: block;
+  visibility: visible;
+}

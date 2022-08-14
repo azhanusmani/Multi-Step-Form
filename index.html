@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <form action="#" id="form1">
+        <h2>Enter Details</h2>
+        <input type="text" id="name" placeholder="Name" required/>
+        <input type="text" id="fname" placeholder="Father's Name" required/>
+        <input type="text" id="mname" placeholder="Mother's Name" required/>
+
+        <div class="btn-box">
+          <button type="button" id="next">Next</button>
+        </div>
+       
+      </form>
+  
+
+      <form action="#" id="form2" class="hide">
+        <h2>Contact Details</h2>
+        <input type="text" placeholder="Email Adress" id="email" required />
+        <input type="text" placeholder="Mobile Number" id="mob"  required/>
+        <input type="text" placeholder="Intagram User ID"  id="insta" required/>
+
+        <div class="btn-box">
+          <button type="button" id="back2" >Back</button>
+          <button type="button" id="next2" >Next</button>
+          
+        </div>
+      </form>
+
+      <form action="#" id="form3" class="hide">
+        <h2>Adress Details</h2>
+        <input type="text" placeholder="Complete Adress" id="adress" required/>
+        <input type="text" placeholder="City " id="city" required/>
+        <input type="text" placeholder="Country" id="country" required/>
+
+        <div class="btn-box">
+          <button type="button" id="back3">Back</button>
+          <button type="submit" id="submit" >submit</button>
+        </div>
+    
+      </form>
+
+      <h1 id="final"></h1>
+      <p id="result"></p>
+      <h2 id="message"></h2>
+<button id="confirm" class="hide">Click to confirm</button>
+
+    </div> 
+
+  
+    </div>
+
+   
+
+    <script src="fetch.js"></script>
+  </body>
+</html>
